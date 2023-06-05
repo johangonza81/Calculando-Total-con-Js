@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Calculando el Total</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calcular el Valor de tu Compra</h1>
+        <div class="card_container">
+            <div class="card1">
+                <div class="top_card">
+                    
+                    <div class="imagen">
+                        <img src="./assets/img/Samsung_S23+-removebg-preview.png">
+                    </div> 
+                    
+                </div>
+                <h3>Samsung S23+</h3>
+                <input id="input-1" type="Number" min="0" max="100" placeholder="Cantidad">
+                <input id="color" type ="text" placeholder="Coloque el Color en Ingles">
+                    <button onclick="realizar_operacion(); cambiar_color();">Calcular Total</button>
+
+                    <h3>Precio 595000</h3>  
+            </div>
+
+            
+            <div class="card2">
+                
+                <p>Total: <span id="Dato2" >$</span></p>
+                <p>Cantidad: <span id="Dato3" ></span>Unidades</p>
+                <div class="color">
+                    <div class="Color2">
+                        <p>Color:</p>
+                    </div>
+                    <div id="color3">
+                        <div class="loco">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    
+    <script src="./assets/js/script.js"></script>
+</body> 
+</html>
